@@ -42,7 +42,7 @@ IF(DEFINED hwrf_g2_lib)
   w3nco_d
   bacio_4
   ${JASPER_LIBRARIES}
-  png)
+  ${PNG_LIBRARIES})
 ELSE()
   target_link_libraries(
   ${exe_name}
@@ -52,7 +52,7 @@ ELSE()
   w3nco_d
   bacio_4
   ${JASPER_LIBRARIES}
-  png)
+  ${PNG_LIBRARIES})
 ENDIF()
 
 

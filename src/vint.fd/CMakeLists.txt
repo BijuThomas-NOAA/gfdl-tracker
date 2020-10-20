@@ -29,7 +29,7 @@ target_link_libraries(
   w3nco_d
   bacio_4
   ${JASPER_LIBRARIES}
-  png)
+  ${PNG_LIBRARIES})
 
 
 install(TARGETS ${exe_name} DESTINATION ${exec_dir})
